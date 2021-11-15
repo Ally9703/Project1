@@ -1,0 +1,167 @@
+.En_tête{
+    background-color: rgb(237, 237, 241);
+    padding top: 6px;
+    padding-bottom :6px;
+    overflow: hidden;
+    width:100%;
+    
+}
+.En_tête ul{
+    list-style-type: none;
+    
+}
+.En_tête li{
+    display: inline-block;
+    font-size: 1.5em;
+    padding-right: 100px;
+    padding-top: 6px;
+}
+/*
+    ***************************************** NAV-BAR ****************************************************
+*/
+nav{
+    background-color: blue; /*couleur du backgroud du nav */
+    padding-top: 8px; /* marge d'en haut du nav*/
+    padding-bottom: 8px; /*marge de bas du nav */
+    overflow: hidden;
+    width: 100%; /*ici on garde la largeur à 100%*/
+    position: fixed; /* la position fixe*/
+    opacity: 0.7;
+}
+
+nav ul{
+    list-style-type: none;    
+}
+
+nav li{
+    display: inline-block; /*alignement de la liste de liens */ 
+}
+
+nav a{
+    color: white; /* couleur de lien  */ 
+    text-decoration: none; /* ici perment d'enlevé les soulignement*/
+    font-size: 1.5em; /* la taille en les liens */ 
+    padding-left: 25px; /*la marge interieur */
+    font-weight: bold;
+    
+}
+nav a:hover{
+    color: black;
+}
+ /* Ici j'ai utiliser la balise span pour travailler la lien ACCEUIL  */
+nav a span{
+    color: black; /* couleur noir*/
+    border: 2px solid white; /* bordur en couleur blanche*/
+    border-top: none; /* pas de bordure en haut */
+    border-right: none; /* pas de bordure à droite */
+    border-left: none;  /*  pas de brodure à gauche*/ 
+}
+
+/* ****************************************BODY*********************************************/
+body{
+    background-color: rgb(201, 180, 160);
+    padding: 0;
+    margin :0;
+    
+}
+        /* -------------------------PAGE DE BIENVENUE---------------------------*/
+#Page_de_bienvenue{
+    border: 2px solid black;
+    padding-top: 180px;
+    padding-bottom: 250px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-style: none;
+    background : url(img/wise.jpg) no-repeat fixed center center;
+    background-size: cover;
+    color: white;
+}
+
+/* ********************************SECTION SERVICE*****************************************************/
+section{
+    background-color: white;
+}
+}
+
+    
+}
+.service h3{
+    color: blue
+
+}
+.service p{
+    font-size: 1.9rem;
+}
+
+section .service0{
+    
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-left: 130px;
+
+}
+ section .service1{
+     display: inline-block;
+    border: 1px solid;
+    padding: 30px;
+ }
+ section .service2{
+     display: inline-block;
+     border: 1px solid;
+     padding: 21px;
+ }
+ section .service3{
+    display: inline-block;
+    border: 1px solid;
+    padding: 20px;
+    padding-top:39px;
+}
+section .service4{
+    display: inline-block;
+    border: 1px solid;
+    padding: 20px;
+    padding-top:66px;
+}
+
+section .service5{
+    display: inline-block;
+    border: 1px solid;
+    padding: 15px;
+}
+section .service6{
+    display: inline-block;
+    border: 1px solid;
+    padding: 15px;
+    padding-top: 90px;
+}
+section .service7{
+    display: inline-block;
+    border: 1px solid;
+    padding: 30px;
+    padding-top: 55px;
+}
+section .service8{
+    display: inline-block;
+    border: 1px solid;
+    padding: 15px;
+    padding-top: 100px;  
+}
+
+.travail0{
+    background-color: rgb(43, 43, 75);
+}
+section .travail{
+    
+    display: inline-block;
+    margin-left: 150px;
+}
+section .travail1{
+    display: inline-block;
+    color: white;
+    padding-top: 30px;
+    margin-left: 140px;
+}
+section .travail1 h2{
+    color: blue;
+}
