@@ -192,14 +192,18 @@ section .formulaire2{
     border: solid;
     border-color:rgb(43, 43, 75) ;
     margin-top: 30px;
+
 }
 .projet1{
-    margin-left: 150px;    
+    margin-left: 150px;     
 }
 section .h1{
     color: blue;
 }
-.projet2{
-    margin-left: 80px;
+.projet2 img{
+    margin-left: 30px;   
     
+}
+.projet2 img:hover{
+    color: black;
 }
