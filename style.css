@@ -1,6 +1,6 @@
 .En_tête{
     background-color: rgb(237, 237, 241);
-    padding top: 6px;
+    padding-top: 6px;
     padding-bottom :6px;
     overflow: hidden;
     width:100%;
@@ -59,7 +59,7 @@ nav a span{
 
 /* ****************************************BODY*********************************************/
 body{
-    background-color: rgb(201, 180, 160);
+    background-color: white;
     padding: 0;
     margin :0;
     
@@ -78,19 +78,17 @@ body{
     color: white;
 }
 
-/* ********************************SECTION SERVICE*****************************************************/
+/* **********************************SECTION SERVICE***************************************************/
 section{
     background-color: white;
 }
-}
 
-    
-}
 .service h3{
     color: blue
-
+    
 }
-.service p{
+
+section .service p{
     font-size: 1.9rem;
 }
 
@@ -102,7 +100,7 @@ section .service0{
 
 }
  section .service1{
-     display: inline-block;
+    display: inline-block;
     border: 1px solid;
     padding: 30px;
  }
@@ -148,6 +146,7 @@ section .service8{
     padding-top: 100px;  
 }
 
+/***********************************SECTION TRAVAIL************************************************/
 .travail0{
     background-color: rgb(43, 43, 75);
 }
@@ -161,7 +160,46 @@ section .travail1{
     color: white;
     padding-top: 30px;
     margin-left: 140px;
+    
 }
 section .travail1 h2{
     color: blue;
+}
+
+/*********************************************FORMULAIRE*************************************************/
+.formulaire{
+    background-color: white;
+}
+
+section form{
+    background-color: rgb(43, 43, 75);
+    display: inline-block;
+    width: 600px;
+    height: 550px;
+    position: relative;
+    
+}
+
+section .formulaire2{
+    display: inline-block;
+    margin-left: 140px;
+    border: solid;
+}
+
+/****************************************************PROJET**************************************************/
+.projet{
+    background-color: rgb(43, 43, 75);
+    border: solid;
+    border-color:rgb(43, 43, 75) ;
+    margin-top: 30px;
+}
+.projet1{
+    margin-left: 150px;    
+}
+section .h1{
+    color: blue;
+}
+.projet2{
+    margin-left: 80px;
+    
 }
